@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "app",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.rasck.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }, 
+      "package": "com.rasck.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }, 
+    "plugins": [["@rasck/android-manifest-visibility", { "packageVisibilityParams": [
+      {
+        "type": "intent",
+        "name": "android.intent.action.VIEW",
+        "data": [{ "android:scheme": "geo" }]
+      },
+      {
+        "type": "intent",
+        "name": "android.intent.action.VIEW",
+        "data": [{ "android:scheme": "smsto" }]
+      },
+      {
+        "type": "intent",
+        "name": "android.intent.action.SENDTO",
+        "data": [{ "android:scheme": "mailto" }]
+      },
+      {
+        "type": "intent",
+        "name": "android.intent.action.DIAL"
+      }
+    ]}]]
+  }
+}

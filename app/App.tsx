@@ -1,0 +1,1 @@
+export { default } from './src/android-manifest-visibility/App';

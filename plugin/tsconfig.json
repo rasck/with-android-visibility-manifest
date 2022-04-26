@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES5",
+    "declaration": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "types": ["node", "jest"]
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "**/__mocks__/*", "**/__tests__/*"]
+}

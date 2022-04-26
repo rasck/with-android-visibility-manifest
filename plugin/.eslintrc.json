@@ -1,0 +1,18 @@
+{
+	"extends": [
+		"universe/native"
+	],
+	"parser": "@typescript-eslint/parser",
+	"plugins": [],
+	"rules": {
+		// We will let type script handle this
+		// react/prop-types doens't work well with how we define functional components with arrow functions
+		"react/prop-types": [
+			"off"
+		],
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/no-var-requires": "error",
+		"no-var": "error",
+		"prefer-arrow-callback": "error"
+	}
+}
