@@ -30,7 +30,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }, 
-    "plugins": [["@rasck/android-manifest-visibility", { "packageVisibilityParams": [
+    "plugins": [["android-manifest-visibility", { "packageVisibilityParams": [
       {
         "type": "intent",
         "name": "android.intent.action.VIEW",

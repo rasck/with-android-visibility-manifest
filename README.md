@@ -21,7 +21,7 @@ It is possible to define package visibiliy for intents
   "expo": {
     "plugins": [
       [
-        "@rasck/android-manifest-visibility",
+        "android-manifest-visibility",
         {
            "packageVisibilityParams": [
                 {
@@ -57,7 +57,7 @@ and other apps (packages)
   "expo": {
     "plugins": [
       [
-        "@rasck/android-manifest-visibility",
+        "android-manifest-visibility",
         {
            "packageVisibilityParams": [
                 {

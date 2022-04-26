@@ -1,6 +1,6 @@
 {
-  "name": "@rasck/android-manifest-visibility",
-  "version": "1.0.2",
+  "name": "android-manifest-visibility",
+  "version": "1.0.0",
   "main": "build/withAndroidVisibilityManifest.js",
   "types": "build/withAndroidVisibilityManifest.d.ts",
   "sideEffects": false,
@@ -8,7 +8,7 @@
     "build",
     "app.plugin.js"
   ],
-  "author": "rck <rasmusknap@gmail.com>",
+  "author": "rasck <rasmusknap@gmail.com>",
   "license": "MIT",
   "description": "Config plugin to add visibility intent filters to the android manifest under the queries section",
   "scripts": {
