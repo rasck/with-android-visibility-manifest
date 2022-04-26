@@ -7,11 +7,11 @@ With this module you can define your app's package visibiliy needs that is other
 Go to the plugin folder to develop on the plugin. Once you are ready to test your plugin you can setup the expo app in the `app` folder to use the plugin:
 
  1. bump package.json in the plugin
- 2. go to the plugin folder in a unix terminal, 
+ 2. go to the plugin folder in a terminal, 
  3. run `yarn && yarn build && yarn pack`.
  4. refer to the packed version in the package.json in `app`. E.g. `"android-manifest-visibility" : "../plugin/android-manifest-visibility-v.1.0.0.tgz"`
  5. setup the plugin in app.json in the `app` (see examples below)
- 6. build the apk from the `app` and test on your android phone.
+ 6. build the apk from the `app` and test on your android phone. E.g. use `yarn apk` within the `./app` path
 
 __Examples__
 
